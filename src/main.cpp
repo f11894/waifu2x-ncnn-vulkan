@@ -385,7 +385,6 @@ int main(int argc, char** argv)
     path_t format = PATHSTR("png");
 
 #if _WIN32
-    setlocale(LC_ALL, "");
     wchar_t opt;
     while ((opt = getopt(argc, argv, L"i:o:n:s:t:m:g:j:f:vxh")) != (wchar_t)-1)
     {
