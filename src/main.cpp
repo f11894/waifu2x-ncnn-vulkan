@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <queue>
 #include <vector>
-#include <clocale>
 
 #if _WIN32
 // image decoder and encoder with wic
